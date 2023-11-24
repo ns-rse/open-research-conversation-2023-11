@@ -30,71 +30,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -414,7 +349,7 @@ Neil Shephard <a href="https://orcid.org/0000-0001-8301-6857" class="quarto-titl
 <h2>Scan This!</h2>
 <div id="qr1" class="qrcode"></div>
 <script type="text/javascript">
-var qrcode = new QRCode("qr1", {"width":"400","colorDark":"#000000","height":"400","text":"https://ns-rse.github.io/open-research-conversation-2023-11","colorLight":"#ffffff"});
+var qrcode = new QRCode("qr1", {"colorDark":"#000000","height":"400","width":"400","colorLight":"#ffffff","text":"https://ns-rse.github.io/open-research-conversation-2023-11"});
 </script>
     
 <p><a href="https://ns-rse.github.io/open-research-conversation-2023-11">ns-rse.github.io/open-research-conversation-2023-11</a></p>
@@ -432,7 +367,7 @@ var qrcode = new QRCode("qr1", {"width":"400","colorDark":"#000000","height":"40
 <p>Good afternoon, my name is Neil Shephard and I’m a Research Software Engineer in the Department of Computer Science at the University of Sheffield.</p>
 <p>I’ve not always been a Research Software Engineer though, and have had a varied career spending time as a Genetic Epidemiologist, then working at a Cancer Registry before nine years as a Medical Statistician in Clinical Trials and a stint as a Data Scientist before ending up here.</p>
 <p>What relevance does my career have? Well early on in my first job I discovered literate programming a method of writing code for analysis and papers that made work reproducible and in realising that there is a different way of working from the traditional and pervasive word processor and spreadsheets and that it was not only more efficient, but also meant that it was easier to work in a reproducible and open manner which engendered a passion for Open Research that persists today.</p>
-<p>Now that I’ve explained very briefly how I came to be interested in Open Research I’m going to tell you a bit about how I accidentally started the Open Scholarship Community Sheffield.</p>
+<p>One of the things I was asked to do about a year ago was look into Now that I’ve explained very briefly how I came to be interested in Open Research I’m going to tell you a bit about how I accidentally started the Open Scholarship Community Sheffield.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -445,10 +380,16 @@ var qrcode = new QRCode("qr1", {"width":"400","colorDark":"#000000","height":"40
           display:block!important;
       }</style></aside>
 </section>
-<section id="communities" class="slide level2">
-<h2>Communities</h2>
+<section id="open-scholarship-community-sheffield" class="slide level2">
+<h2>Open Scholarship Community Sheffield</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/OSC_Sheffield.png"></p>
+<figcaption><a href="osc-international.com/osc-sheffield">osc-international.com/osc-sheffield</a></figcaption>
+</figure>
+</div>
 <aside class="notes">
-<p>Speaker Notes can be added to each slide. <strong>Formatting</strong> can be used here too.</p>
+<p>So I’ve had a long standing interest in open and reproducible research and have taken this extrapolated path to become a Research Software Engineer. The Research Software Engineering team and associated groups in the University such as IT Research Services and the Library have a small community, we interact regularly on various aspects of service provision and there is a Slack channel. About a year ago I was tasked with growing the RSE community to improve engagement and members who interacted across the University.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -463,23 +404,251 @@ var qrcode = new QRCode("qr1", {"width":"400","colorDark":"#000000","height":"40
 </section>
 <section id="osc-incubator-programme" class="slide level2">
 <h2>OSC Incubator Programme</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/inosc.png" style="width:50.0%"></p>
+<figcaption><a href="https://osc-international.com/start-your-own-osc/">OSC Incubator Program</a></figcaption>
+</figure>
+</div>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>ToDo</strong> (code)</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="ss">+ </span>Learn Markdown</span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="ss">+ </span>Create Quarto Slides</span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="ss">+ </span>Publish on GitHub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol type="1">
+<li>Mission and Vision</li>
+<li>Member Recruitment</li>
+<li>Community Engagement</li>
+</ol>
 </div><div class="column" style="width:50%;">
-<p><strong>ToDo</strong> (Rendered)</p>
+<ol start="4" type="1">
+<li>Stakeholder Engagement</li>
+<li>Monitoring and Sustainability</li>
+<li>Open Session and Final Presentation</li>
+</ol>
+</div>
+</div>
+<aside class="notes">
+<p>I was browsing through media feeds as I do and I came across the OSC Incubator Programme which was running in early March 2022 and thought this would be a useful way of finding out some ways to help grow the RSE community at The University of Sheffield.</p>
+<p>I can be a bit slow at times and didn’t think too much about the key word in the title “Incubator” but signed up.</p>
+<p>On the first week the penny dropped and I realised that I would be establishing a Open Science Community, which is where the “accidental” part of this short presentation comes from.</p>
+<p>So what did I let myself in for? Well thankfully its a really well structured course!</p>
+<p>The International Open Science and Scholarship Community was established at University of Utrecht and has grown within the Netherlands with 12 local communities at different Universities throughout the Netherlands.</p>
+<p>The Incubator Programme aims to help grow the OSC community beyond The Netherlands, and the Incubator Programme runs over 14 weeks programme and takes people through setting up a local OSC Community.</p>
+<p>This involves setting a Mission and Vision, how to go about Community Engagement and Recruiting Members, engaging with Stakeholders, monitoring activity, progress and sustainability.</p>
+<p>I’m not going to cover all of these areas but will state the mission and vision, member recruitment and community engagement.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="why-communities" class="slide level2">
+<h2>Why Communities</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/COS_Culture_and_Behavior_Change_model2.png" style="width:75.0%"></p>
+<figcaption><a href="https://www.cos.io/blog/cos-celebrates-10-years">Improving the Research Culture: COS Celebrates 10 Years</a></figcaption>
+</figure>
+</div>
+
+<aside class="notes">
+<p>Being somewhat naive about the role communities play it was useful to be taught how they fit in to effecting culture change and I find this graphic explains things well.</p>
+<p>Infrastructure is at the base of the pyramid of culture and behaviour change, you need tools such as the Open Science Framework which allows researchers to register their studies, share materials, data and output at any point to accelerate communication regardless of publication status.</p>
+<p>But for this to be effective the user experience needs to be low friction to encourage adoption and many popular services integrate with each other and strive to make their tools accessible.</p>
+<p>From the top of the pyramid is policy, which derives from funders and institutions, and defines what you have to do within the system to gain recognition.</p>
+<p>This in turn defines the incentives that reward participants for participating in the system.</p>
+<p>Whilst individuals can always go about changing their own behaviour, this can be challenging when the culture is to maintain the status quo, not all colleagues are keen to change their working practices. But an effective way of supporting and nurturing individuals who are seeking to change is via a supportive community as seeing others using open research practices normalises the behavioural changes, provides support and demonstrates that open research is possible.</p>
+<p>Thus communities normalise behaviour and serve to accelerate the adoption of change, in this case Open Research practices, and importantly can feed up the pyramid to the top to influence and shape policy as practices and guidelines develop and mature over time.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><a href="https://www.cos.io/blog/strategy-for-culture-change">Nosek (2019) Strategy for Culture Change</a></p>
+</div></aside></section>
+<section id="vision" class="slide level2">
+<h2>Vision</h2>
+<blockquote>
+<p>To be an inclusive, supportive, and active community for researchers to interact, share knowledge and encourage good working practices such that the values, transparency and culture of Open Scholarship becomes the norm.</p>
+</blockquote>
+<aside class="notes">
+<p>The Vision of OSC Sheffield states what we wish to be currently stands as.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="mission" class="slide level2">
+<h2>Mission</h2>
+<blockquote>
+<p>We aim to develop and share knowledge and good Open Scholarship practices that foster, enable, encourage and support Open Scholarship to be undertaken by anyone at the University of Sheffield wishing to do so.</p>
+<p>We encourage community interactions where those with experience meet with those wishing to learn to share, support, mentor and encourage good Open Scholarship practices. This will encourage collaboration between individuals, groups, institutions and organisations seeking to improve transparency and openness in scientific research.</p>
+</blockquote>
+<aside class="notes">
+<p>The Mission sets out in broad terms how we will go about achieving the vision and currently reads as…</p>
+<p>The Incubator Programme guided me through the different steps in identifying who the stakeholders would be both internally such as the Library, Open Research Working Group, Open Research Advisory Group, Heads of Faculties as well as externally such as the UK Research Network.</p>
+<p>The aim is to have a broad membership not just from University of Sheffield but also Sheffield Hallam and beyond with regular events for people to attend, learn about and share their experience of Open Research.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="member-recruitment" class="slide level2">
+<h2>Member Recruitment</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li>Learn Markdown</li>
-<li>Create Quarto Slides</li>
-<li>Publish on GitHub</li>
+<li>Open Research Working Group (ORWG)</li>
+<li>ORWG members canvassed for faculty leaders</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Launched at <a href="https://ns-rse.github.io/openfest2023-oscsheffield/">OpenFest2023</a></li>
+<li><a href="https://osc-international.com/osc-sheffield-members/?filter_osc_36e45=OSC%20Sheffield">32 members</a></li>
 </ul>
 </div>
 </div>
 <aside class="notes">
-<p>Slides can have columns and we can create unordered lists.</p>
+<p>I’ve been quite fortunate in getting things going because the University of Sheffield already has structures in place from the top down setting out the policy on Open Research and there is good infrastructure in place to support that.</p>
+<p>Bridging that gap in the pyramid of behaviour change is Jenni Adams and the Open Research Working Group as well as many other support staff who are actively engaged in undertaking and promoting Open Research here at the University and Jenni has been very supportive getting OSC Sheffield up and running and already organises a number of events.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="community-engagement---existing-activities" class="slide level2">
+<h2>Community Engagement - Existing Activities</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Open Research Conversation.</li>
+<li>RSE Lunchbytes.</li>
+<li>OpenFest</li>
+<li>FAIR Faculty Seminars</li>
+<li>How to Share Survey Data</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Unleash your Data</li>
+<li>ORWG Drop In-Sessions</li>
+</ul>
+</div>
+</div>
+<aside class="notes">
+<p>Various events are already organised that help bring people together to talk about and share ideas around Open Research practices.</p>
+<p>There are the Open Research Conversation</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="community-engagement---osc-sheffield" class="slide level2">
+<h2>Community Engagement - OSC Sheffield</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/SheffieldR_hex.png" style="width:30.0%"></p>
+<figcaption><a href="https://sheffieldr.github.io"><strong>sheffieldr.github.io</strong></a></figcaption>
+</figure>
+</div>
+<div id="qr_sheffieldr" class="qrcode"></div>
+<script type="text/javascript">
+var qrcode = new QRCode("qr_sheffieldr", {"colorDark":"#000000","height":"250","width":"250","colorLight":"#ffffff","text":"https://sheffieldr.github.io"});
+</script>
+    
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/reproducibiliTea_logo.jpg" data-widh="120%"></p>
+<figcaption><a href="https://reproducibilitea-sheffield.github.io/"><strong>reproducibilitea-sheffield.github.io</strong></a></figcaption>
+</figure>
+</div>
+<div id="qr_reproducibilitea" class="qrcode"></div>
+<script type="text/javascript">
+var qrcode = new QRCode("qr_reproducibilitea", {"colorDark":"#000000","height":"250","width":"250","colorLight":"#ffffff","text":"https://reproducibilitea-sheffield.github.io/"});
+</script>
+    
+</div>
+</div>
+<aside class="notes">
+<p>With the support of my colleague Grace Accad from IT Services we have re-launched the Sheffield R User group and had two meetings, one in October and one in November. These are events where people present their work with using the <a href="https://www.r-project.org/">R</a> statistical programming language.</p>
+<p>With Jim Uttley and Zuzanna Zagrodzka’s support we are also re-launching the <a href="https://reproducibilitea.org/">ReproducibiliTea</a> Journal Club which aims to discuss diverse issues, papers and ideas about improving science, reproducibility and the Open Science movement and the first of those is scheduled for next week following the next Open Research Conversation. We’ll be meeting in the Diamond and if you follow the links you can find out more about paper that will be presented.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="community-engagement---osc-sheffield-1" class="slide level2">
+<h2>Community Engagement - OSC Sheffield</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Join and add your profile!</li>
+<li><a href="https://osc-international.com/osc-sheffield/">osc-international.com/osc-sheffield</a></li>
+</ul>
+<div id="qr_oscsheffield" class="qrcode"></div>
+<script type="text/javascript">
+var qrcode = new QRCode("qr_oscsheffield", {"colorDark":"#000000","height":"250","width":"250","colorLight":"#ffffff","text":"https://osc-international.com/osc-sheffield/"});
+</script>
+    
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/osc_sheffield_profiles3.png"></p>
+<figcaption>OSC Members</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<aside class="notes">
+
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;

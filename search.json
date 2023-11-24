@@ -11,20 +11,69 @@
     "href": "index.html#background",
     "title": "How I Accidentally Started an Open Scholarship Community",
     "section": "Background",
-    "text": "Background\n\nGenetic Epidemiologist 2000-2008\nCancer Registry Statistician 2008-2009\nMedical Statistician (Clinical Trials) 2009-2018\nData Scientist 2018-2022\nResearch Software Engineer 2022-Present\n\n\nGood afternoon, my name is Neil Shephard and I’m a Research Software Engineer in the Department of Computer Science at the University of Sheffield.\nI’ve not always been a Research Software Engineer though, and have had a varied career spending time as a Genetic Epidemiologist, then working at a Cancer Registry before nine years as a Medical Statistician in Clinical Trials and a stint as a Data Scientist before ending up here.\nWhat relevance does my career have? Well early on in my first job I discovered literate programming a method of writing code for analysis and papers that made work reproducible and in realising that there is a different way of working from the traditional and pervasive word processor and spreadsheets and that it was not only more efficient, but also meant that it was easier to work in a reproducible and open manner which engendered a passion for Open Research that persists today.\nNow that I’ve explained very briefly how I came to be interested in Open Research I’m going to tell you a bit about how I accidentally started the Open Scholarship Community Sheffield."
+    "text": "Background\n\nGenetic Epidemiologist 2000-2008\nCancer Registry Statistician 2008-2009\nMedical Statistician (Clinical Trials) 2009-2018\nData Scientist 2018-2022\nResearch Software Engineer 2022-Present\n\n\nGood afternoon, my name is Neil Shephard and I’m a Research Software Engineer in the Department of Computer Science at the University of Sheffield.\nI’ve not always been a Research Software Engineer though, and have had a varied career spending time as a Genetic Epidemiologist, then working at a Cancer Registry before nine years as a Medical Statistician in Clinical Trials and a stint as a Data Scientist before ending up here.\nWhat relevance does my career have? Well early on in my first job I discovered literate programming a method of writing code for analysis and papers that made work reproducible and in realising that there is a different way of working from the traditional and pervasive word processor and spreadsheets and that it was not only more efficient, but also meant that it was easier to work in a reproducible and open manner which engendered a passion for Open Research that persists today.\nOne of the things I was asked to do about a year ago was look into Now that I’ve explained very briefly how I came to be interested in Open Research I’m going to tell you a bit about how I accidentally started the Open Scholarship Community Sheffield."
   },
   {
-    "objectID": "index.html#communities",
-    "href": "index.html#communities",
+    "objectID": "index.html#open-scholarship-community-sheffield",
+    "href": "index.html#open-scholarship-community-sheffield",
     "title": "How I Accidentally Started an Open Scholarship Community",
-    "section": "Communities",
-    "text": "Communities\n\nSpeaker Notes can be added to each slide. Formatting can be used here too."
+    "section": "Open Scholarship Community Sheffield",
+    "text": "Open Scholarship Community Sheffield\n\n\n\nosc-international.com/osc-sheffield\n\n\n\nSo I’ve had a long standing interest in open and reproducible research and have taken this extrapolated path to become a Research Software Engineer. The Research Software Engineering team and associated groups in the University such as IT Research Services and the Library have a small community, we interact regularly on various aspects of service provision and there is a Slack channel. About a year ago I was tasked with growing the RSE community to improve engagement and members who interacted across the University."
   },
   {
     "objectID": "index.html#osc-incubator-programme",
     "href": "index.html#osc-incubator-programme",
     "title": "How I Accidentally Started an Open Scholarship Community",
     "section": "OSC Incubator Programme",
-    "text": "OSC Incubator Programme\n\n\nToDo (code)\n+ Learn Markdown\n+ Create Quarto Slides\n+ Publish on GitHub\n\nToDo (Rendered)\n\nLearn Markdown\nCreate Quarto Slides\nPublish on GitHub\n\n\n\n\nSlides can have columns and we can create unordered lists.\n\n\n\nSlides : ns-rse.github.io/open-research-conversation-2023-11"
+    "text": "OSC Incubator Programme\n\n\n\nOSC Incubator Program\n\n\n\n\n\nMission and Vision\nMember Recruitment\nCommunity Engagement\n\n\n\nStakeholder Engagement\nMonitoring and Sustainability\nOpen Session and Final Presentation\n\n\n\n\nI was browsing through media feeds as I do and I came across the OSC Incubator Programme which was running in early March 2022 and thought this would be a useful way of finding out some ways to help grow the RSE community at The University of Sheffield.\nI can be a bit slow at times and didn’t think too much about the key word in the title “Incubator” but signed up.\nOn the first week the penny dropped and I realised that I would be establishing a Open Science Community, which is where the “accidental” part of this short presentation comes from.\nSo what did I let myself in for? Well thankfully its a really well structured course!\nThe International Open Science and Scholarship Community was established at University of Utrecht and has grown within the Netherlands with 12 local communities at different Universities throughout the Netherlands.\nThe Incubator Programme aims to help grow the OSC community beyond The Netherlands, and the Incubator Programme runs over 14 weeks programme and takes people through setting up a local OSC Community.\nThis involves setting a Mission and Vision, how to go about Community Engagement and Recruiting Members, engaging with Stakeholders, monitoring activity, progress and sustainability.\nI’m not going to cover all of these areas but will state the mission and vision, member recruitment and community engagement."
+  },
+  {
+    "objectID": "index.html#why-communities",
+    "href": "index.html#why-communities",
+    "title": "How I Accidentally Started an Open Scholarship Community",
+    "section": "Why Communities",
+    "text": "Why Communities\n\n\n\nImproving the Research Culture: COS Celebrates 10 Years\n\n\n\n\nBeing somewhat naive about the role communities play it was useful to be taught how they fit in to effecting culture change and I find this graphic explains things well.\nInfrastructure is at the base of the pyramid of culture and behaviour change, you need tools such as the Open Science Framework which allows researchers to register their studies, share materials, data and output at any point to accelerate communication regardless of publication status.\nBut for this to be effective the user experience needs to be low friction to encourage adoption and many popular services integrate with each other and strive to make their tools accessible.\nFrom the top of the pyramid is policy, which derives from funders and institutions, and defines what you have to do within the system to gain recognition.\nThis in turn defines the incentives that reward participants for participating in the system.\nWhilst individuals can always go about changing their own behaviour, this can be challenging when the culture is to maintain the status quo, not all colleagues are keen to change their working practices. But an effective way of supporting and nurturing individuals who are seeking to change is via a supportive community as seeing others using open research practices normalises the behavioural changes, provides support and demonstrates that open research is possible.\nThus communities normalise behaviour and serve to accelerate the adoption of change, in this case Open Research practices, and importantly can feed up the pyramid to the top to influence and shape policy as practices and guidelines develop and mature over time.\n\n\nNosek (2019) Strategy for Culture Change"
+  },
+  {
+    "objectID": "index.html#vision",
+    "href": "index.html#vision",
+    "title": "How I Accidentally Started an Open Scholarship Community",
+    "section": "Vision",
+    "text": "Vision\n\nTo be an inclusive, supportive, and active community for researchers to interact, share knowledge and encourage good working practices such that the values, transparency and culture of Open Scholarship becomes the norm.\n\n\nThe Vision of OSC Sheffield states what we wish to be currently stands as."
+  },
+  {
+    "objectID": "index.html#mission",
+    "href": "index.html#mission",
+    "title": "How I Accidentally Started an Open Scholarship Community",
+    "section": "Mission",
+    "text": "Mission\n\nWe aim to develop and share knowledge and good Open Scholarship practices that foster, enable, encourage and support Open Scholarship to be undertaken by anyone at the University of Sheffield wishing to do so.\nWe encourage community interactions where those with experience meet with those wishing to learn to share, support, mentor and encourage good Open Scholarship practices. This will encourage collaboration between individuals, groups, institutions and organisations seeking to improve transparency and openness in scientific research.\n\n\nThe Mission sets out in broad terms how we will go about achieving the vision and currently reads as…\nThe Incubator Programme guided me through the different steps in identifying who the stakeholders would be both internally such as the Library, Open Research Working Group, Open Research Advisory Group, Heads of Faculties as well as externally such as the UK Research Network.\nThe aim is to have a broad membership not just from University of Sheffield but also Sheffield Hallam and beyond with regular events for people to attend, learn about and share their experience of Open Research."
+  },
+  {
+    "objectID": "index.html#member-recruitment",
+    "href": "index.html#member-recruitment",
+    "title": "How I Accidentally Started an Open Scholarship Community",
+    "section": "Member Recruitment",
+    "text": "Member Recruitment\n\n\n\nOpen Research Working Group (ORWG)\nORWG members canvassed for faculty leaders\n\n\n\nLaunched at OpenFest2023\n32 members\n\n\n\n\nI’ve been quite fortunate in getting things going because the University of Sheffield already has structures in place from the top down setting out the policy on Open Research and there is good infrastructure in place to support that.\nBridging that gap in the pyramid of behaviour change is Jenni Adams and the Open Research Working Group as well as many other support staff who are actively engaged in undertaking and promoting Open Research here at the University and Jenni has been very supportive getting OSC Sheffield up and running and already organises a number of events."
+  },
+  {
+    "objectID": "index.html#community-engagement---existing-activities",
+    "href": "index.html#community-engagement---existing-activities",
+    "title": "How I Accidentally Started an Open Scholarship Community",
+    "section": "Community Engagement - Existing Activities",
+    "text": "Community Engagement - Existing Activities\n\n\n\nOpen Research Conversation.\nRSE Lunchbytes.\nOpenFest\nFAIR Faculty Seminars\nHow to Share Survey Data\n\n\n\nUnleash your Data\nORWG Drop In-Sessions\n\n\n\n\nVarious events are already organised that help bring people together to talk about and share ideas around Open Research practices.\nThere are the Open Research Conversation"
+  },
+  {
+    "objectID": "index.html#community-engagement---osc-sheffield",
+    "href": "index.html#community-engagement---osc-sheffield",
+    "title": "How I Accidentally Started an Open Scholarship Community",
+    "section": "Community Engagement - OSC Sheffield",
+    "text": "Community Engagement - OSC Sheffield\n\n\n\n\n\nsheffieldr.github.io\n\n\n\n\n    \n\n\n\n\nreproducibilitea-sheffield.github.io\n\n\n\n\n    \n\n\n\nWith the support of my colleague Grace Accad from IT Services we have re-launched the Sheffield R User group and had two meetings, one in October and one in November. These are events where people present their work with using the R statistical programming language.\nWith Jim Uttley and Zuzanna Zagrodzka’s support we are also re-launching the ReproducibiliTea Journal Club which aims to discuss diverse issues, papers and ideas about improving science, reproducibility and the Open Science movement and the first of those is scheduled for next week following the next Open Research Conversation. We’ll be meeting in the Diamond and if you follow the links you can find out more about paper that will be presented."
+  },
+  {
+    "objectID": "index.html#community-engagement---osc-sheffield-1",
+    "href": "index.html#community-engagement---osc-sheffield-1",
+    "title": "How I Accidentally Started an Open Scholarship Community",
+    "section": "Community Engagement - OSC Sheffield",
+    "text": "Community Engagement - OSC Sheffield\n\n\n\nJoin and add your profile!\nosc-international.com/osc-sheffield\n\n\n\n    \n\n\n\n\nOSC Members\n\n\n\n\n\n\n\n\n\nSlides : ns-rse.github.io/open-research-conversation-2023-11"
   }
 ]
